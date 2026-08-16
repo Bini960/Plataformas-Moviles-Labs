@@ -2,7 +2,7 @@
 
 
 
-Repositorio de laboratorios del curso de Programación de Plataformas Móviles, Universidad del Valle de Guatemala. Cada laboratorio vive en su propia carpeta, con su propio proyecto de Android Studio y su propio README.md con las instrucciones y detalles específicos de ese ejercicio.
+Repositorio de laboratorios del curso de Programación de Plataformas Móviles. Cada laboratorio tiene su propio proyecto de Android Studio.
 
 
 ## Estructura
