@@ -24,7 +24,7 @@ Repositorio de laboratorios del curso de Programación de Plataformas Móviles, 
 \- Jetpack Compose
 
 
-**Para ejecutar cualquier laboratorio:\*\*
+**Para ejecutar cualquier laboratorio:**
 
 1\. Abrir la carpeta del laboratorio correspondiente en Android Studio.
 
