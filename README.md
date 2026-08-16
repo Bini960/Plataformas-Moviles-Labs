@@ -1,20 +1,19 @@
-\# Plataformas Móviles - Laboratorios
+# Plataformas Móviles - Laboratorios
 
 
 
 Repositorio de laboratorios del curso de Programación de Plataformas Móviles, Universidad del Valle de Guatemala. Cada laboratorio vive en su propia carpeta, con su propio proyecto de Android Studio y su propio README.md con las instrucciones y detalles específicos de ese ejercicio.
 
 
-
-\## Estructura
-
-
-
-\- lab4 — Frontend básico con Jetpack Compose
+## Estructura
 
 
 
-\## Herramientas
+- lab4 — Frontend básico con Jetpack Compose
+
+
+
+## Herramientas
 
 
 
@@ -25,8 +24,7 @@ Repositorio de laboratorios del curso de Programación de Plataformas Móviles, 
 \- Jetpack Compose
 
 
-
-\*\*Para ejecutar cualquier laboratorio:\*\*
+**Para ejecutar cualquier laboratorio:\*\*
 
 1\. Abrir la carpeta del laboratorio correspondiente en Android Studio.
 
