@@ -1,3 +1,9 @@
+
+/* Laboratorio 4
+Andrés Castro Morales - 25039
+Link reposirotio: https://github.com/Bini960/Plataformas-Moviles-Labs
+ */
+
 package plat.lab4.acastrom
 
 import android.os.Bundle
@@ -58,10 +64,8 @@ fun TarjetaUVG(modifier: Modifier = Modifier) {
 
     Box(
         modifier = modifier
-            .width(280.dp)
-            .height(400.dp)
-            .border(width = 2.dp, color = Color.Green)
-            .padding(16.dp)
+            .border(width = 10.dp, color = Color.Green)
+            .padding(80.dp)
     ) {
 
         Image(
@@ -69,8 +73,8 @@ fun TarjetaUVG(modifier: Modifier = Modifier) {
             contentDescription = "Escudo UVG",
             modifier = Modifier
                 .align(Alignment.Center)
-                .width(700.dp),
-            alpha = 0.15f
+                .width(300.dp),
+            alpha = 0.2f
         )
 
         Column(
@@ -81,7 +85,7 @@ fun TarjetaUVG(modifier: Modifier = Modifier) {
             Text(
                 text = "Universidad del Valle\nde Guatemala",
                 fontWeight = FontWeight.Bold,
-                fontSize = 15.sp,
+                fontSize = 16.sp,
                 textAlign = TextAlign.Center
             )
 
@@ -89,18 +93,18 @@ fun TarjetaUVG(modifier: Modifier = Modifier) {
 
             Text(
                 text = "Programación de plataformas\nmóviles, Sección 21",
-                fontSize = 10.sp,
+                fontSize = 12.sp,
                 textAlign = TextAlign.Center
             )
 
             Spacer(modifier = Modifier.height(14.dp))
 
             Row {
-                Text(text = "INTEGRANTES", fontWeight = FontWeight.Bold, fontSize = 9.sp)
+                Text(text = "INTEGRANTES", fontWeight = FontWeight.Bold, fontSize = 12.sp)
                 Spacer(modifier = Modifier.width(8.dp))
                 Column {
                     integrantes.forEach { nombre ->
-                        Text(text = nombre, fontSize = 9.sp)
+                        Text(text = nombre, fontSize = 10.sp)
                     }
                 }
             }
@@ -108,15 +112,15 @@ fun TarjetaUVG(modifier: Modifier = Modifier) {
             Spacer(modifier = Modifier.height(10.dp))
 
             Row {
-                Text(text = "CATEDRÁTICO", fontWeight = FontWeight.Bold, fontSize = 9.sp)
+                Text(text = "CATEDRÁTICO", fontWeight = FontWeight.Bold, fontSize = 12.sp)
                 Spacer(modifier = Modifier.width(8.dp))
-                Text(text = "Juan Carlos Durini", fontSize = 9.sp)
+                Text(text = "Juan Carlos Durini", fontSize = 10.sp)
             }
 
             Spacer(modifier = Modifier.height(18.dp))
 
-            Text(text = "Andrés Castro Morales", fontSize = 8.sp, textAlign = TextAlign.Center)
-            Text(text = "25039", fontSize = 8.sp, textAlign = TextAlign.Center)
+            Text(text = "Andrés Castro Morales", fontSize = 10.sp, textAlign = TextAlign.Center)
+            Text(text = "25039", fontSize = 10.sp, textAlign = TextAlign.Center)
         }
     }
 }
