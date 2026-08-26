@@ -48,10 +48,13 @@ fun PantallaJornada (modifier: Modifier = Modifier) {
             .statusBarsPadding()
             .padding(16.dp)
     ) {
+        //fun H1
         Actualizacion ()
         Spacer (modifier = Modifier.height(16.dp))
+        //fun H2
         FechaEncabezado()
         Spacer(modifier = Modifier.height(16.dp))
+        //fun H3
         BloqueRestaurante()
     }
 }
@@ -114,7 +117,8 @@ fun FechaEncabezado (modifier: Modifier = Modifier) {
 fun BloqueRestaurante (modifier: Modifier = Modifier) {
     val context = LocalContext.current
     Card(modifier = modifier
-        .fillMaxWidth(), shape = RoundedCornerShape(20.dp)) {
+        .fillMaxWidth(),
+        shape = RoundedCornerShape(20.dp)) {
         Column(modifier = Modifier.padding(16.dp)) {
             Row(
                 modifier = Modifier
